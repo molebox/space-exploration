@@ -2,5 +2,26 @@
   "name": "with-mdx",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel index.html",
+    "build-prod": "parcel build src/index.html",
+    "pretty": "prettier --write \"src/**/*.{js,mdx}"
+  },
+  "dependencies": {
+    "gatsby-plugin-mdx": "^1.2.36",
+    "gsap": "^3.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@mdx-js/parcel-plugin-mdx": "^1.6.16",
+    "@mdx-js/react": "^2.0.0-next.7",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.1"
+  }
 }
