@@ -12,3 +12,5 @@ I then considered the page from the top down, as in looking down on a blueprint,
 There should be a logical flow between each page much like in graphql with the flow being the edges and the nodes being the pages.
 
 Navigation, that is, internal navigation between the pages simply pushes the user along a certain edge towards a node.
+
+This is just an experiment to play around with different techniques for controlling the blueprint. The plan is to use yarn workspaces with different projects using different stacks and techniques.
